@@ -1,19 +1,14 @@
-import React from "react";
-import Hero from "./component/Hero";
-import CompanyLogo from "./component/companyLogo";
-import FeaturedProduct from "./component/featuredProducts";
-import Categories from "./component/Categories";
-import OurProduct from "./component/OurProduct";
+import React from 'react';
+import ProductList from './ProductList';
 
-export default function Home() {
+
+
+const Pages = () => {
   return (
     <div>
-      <Hero/>
-      <CompanyLogo/> 
-      <FeaturedProduct/>
-      <Categories/>
-      <OurProduct/>
+         <ProductList/>
     </div>
-  );
+  )
 }
 
+export default Pages
